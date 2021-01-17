@@ -1,0 +1,37 @@
+.map {
+    border: 2px solid grey;
+    background: darkgrey;
+    padding: 5px;
+    margin: 50px auto;
+    display: inline-block;
+}
+
+.map-container {
+    border: 1px solid royalblue;
+    display: inline-block;
+}
+
+.map-row {
+    display: flex;
+}
+
+.map-tile {
+    box-sizing: border-box;
+    border-top: 1px solid royalblue;
+    border-left: 1px solid royalblue;
+    background: cornflowerblue;
+    width: 12px;
+    height: 12px;
+}
+
+.map-tile-active {
+    background: white;
+}
+
+.map-row:first-child .map-tile {
+    border-top: none;
+}
+
+.map-tile:first-child {
+    border-left: none;
+}
